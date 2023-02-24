@@ -1,0 +1,119 @@
+/* Dale estilos CSS a este documento de forma externa (3 propiedades) */
+
+*{
+    font-family: 'Anton', sans-serif;
+}
+
+.seccion-universal {
+    padding: 2rem;
+    background: rgb(231, 225, 225);
+    border: 1px solid rgba(34, 34, 34, 0.1);
+    border-radius: 5px;
+}
+
+
+.recuadro{
+    border: solid 0.1rem white;
+    padding: .5rem;
+    background-color: rgb(17, 77, 141);
+}
+
+
+/* 5. Aplica 5 propiedades flex a este documento. */
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    text-align: center;
+    margin-left: 4rem;
+}
+
+h1,h2,h3,p{
+    font-family: 'Anton', sans-serif;
+}
+
+header{
+    display: flex;
+    width: 100%;
+}
+
+h1{
+    width: 50%;
+}
+
+nav{   
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-list{
+    margin: 1rem;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+h1{
+    color: rgb(52, 47, 47);
+    margin-left: 5rem;
+}
+
+a{
+    color: rgb(52, 47, 47);
+}
+
+a:hover{
+    cursor: pointer;
+    color: rgb(24, 24, 78);
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+}
+
+.contenedor-section{
+    display: flex;
+    gap: 3rem;
+}
+
+aside p {
+    text-align: center;
+    margin: 3rem;
+}
+
+h3{
+    width: 100%;
+    text-align: center;
+    color: rgb(160, 117, 9);
+    letter-spacing: .2rem;
+}
+
+h4{    width: 100%;
+    text-align: center;
+    color: rgb(160, 117, 9);
+    letter-spacing: .2rem;
+    font-size: 1.4rem;}
+
+svg:hover{
+    scale:1.5;
+}
+
+.tituloFirebase{
+    text-align: center;
+    padding: 2rem;
+    
+    
+}
+
